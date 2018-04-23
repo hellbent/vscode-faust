@@ -1,0 +1,26 @@
+{
+    "name": "vscode-faust",
+    "displayName": "vscode-faust",
+    "description": "Language support for the Faust DSP programming language",
+    "version": "0.0.1",
+    "publisher": "glen-anderson",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "faust",
+            "aliases": ["Faust", "faust"],
+            "extensions": [".dsp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "faust",
+            "scopeName": "source.faust",
+            "path": "./syntaxes/faust.tmLanguage.json"
+        }]
+    }
+}
