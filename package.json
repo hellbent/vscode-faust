@@ -4,8 +4,10 @@
     "description": "Language support for the Faust DSP programming language",
     "version": "1.0.0",
     "publisher": "glen-anderson",
-    "repository": "https://github.com/hellbent/vscode-faust",
-    "homepage": "https://github.com/hellbent/vscode-faust",
+    "repository": {
+        "url": "https://github.com/hellbent/vscode-faust.git"
+    },
+    "homepage": "https://github.com/hellbent/vscode-faust/blob/master/README.md",
     "icon": "images/faust-icon.png",
     "license": "MIT",
     "engines": {
