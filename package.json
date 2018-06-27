@@ -2,7 +2,7 @@
     "name": "vscode-faust",
     "displayName": "Faust",
     "description": "Language support for the Faust DSP programming language",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "publisher": "glen-anderson",
     "repository": {
         "url": "https://github.com/hellbent/vscode-faust.git"
@@ -44,6 +44,6 @@
                 "language": "faust",
                 "path": "./snippets/faust-snippets.json"
             }
-        ]        
+        ]
     }
 }
