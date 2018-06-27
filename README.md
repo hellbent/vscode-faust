@@ -14,7 +14,6 @@ This is a simple extension that provides syntax highlighting of [Faust](http://f
 
 * [Faust 2.5](https://github.com/grame-cncm/faust/releases) or greater
 
-## Release Notes
+## Acknowlegements
 
-### 1.0.0
-- Initial release
+* The languag grammar and snippets were derived in part from the [atom syntax highlighting plugin for Faust](https://github.com/grame-cncm/faust/tree/master-dev/syntax-highlighting/atom/language-faust) and released under [this licenses](https://github.com/grame-cncm/faust/blob/master-dev/syntax-highlighting/atom/language-faust/LICENSE.md). Thanks to Yann Orlarey ([@lrlarey](https://github.com/orlarey)) and other contributors for their work!

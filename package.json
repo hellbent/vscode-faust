@@ -14,7 +14,8 @@
         "vscode": "^1.22.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "contributes": {
         "languages": [
@@ -25,7 +26,8 @@
                     "faust"
                 ],
                 "extensions": [
-                    ".dsp"
+                    ".dsp",
+                    ".lib"
                 ],
                 "configuration": "./language-configuration.json"
             }
@@ -36,6 +38,12 @@
                 "scopeName": "source.faust",
                 "path": "./syntaxes/faust.tmLanguage.json"
             }
-        ]
+        ],
+        "snippets": [
+            {
+                "language": "faust",
+                "path": "./snippets/faust-snippets.json"
+            }
+        ]        
     }
 }
